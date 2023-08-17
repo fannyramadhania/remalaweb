@@ -1,0 +1,183 @@
+.content-title-home{
+    background-image: url("../../assets/home/companyy.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-title-home p{
+    text-shadow: 0 0 30px rgb(255, 255, 255); /* Efek sinar lebih kuat saat dihover */
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.boxitem-home {
+    height: 100px;
+    border-radius: 10px;
+    background-color: #0a5493;
+}
+
+.item-home{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center-squere{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.item-home p{
+      color: #0a5493;
+      font-weight: bold;
+}
+
+.all-item-home{
+    margin-top: 150px;
+}
+
+.content-home-products h3{
+    font-weight: bold;
+    color: #0a5493;
+}
+
+.content-home-products{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+.tachyon {  
+    background-image: url("../../assets/home/slide2.jpeg");
+  
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%); /* Potong miring ke bawah */
+    border-top-left-radius: 22px; /* Border radius pada sudut kiri atas */
+    border-bottom-right-radius: 22px; /* Border radius pada sudut kanan bawah */
+    border-bottom-left-radius: 22px; /* Tidak ada border radius pada sudut kiri bawah */
+}
+
+/* .tachyon2 img{
+    background-color: #e9e9e9;
+}
+
+.tachyon  img{
+    padding: 3%;
+    background-color: #e9e9e9;
+} */
+.tachyon2  {  
+    background-image: url("../../assets/home/slide2.jpeg");
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    right: 90px;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%); /* Potong miring ke bawah */
+    border-top-right-radius: 22px; /* Border radius pada sudut kanan atas */
+    border-bottom-right-radius: 22px; /* Border radius pada sudut kanan bawah */
+    border-top-left-radius: 22px; /* Tidak ada border radius pada sudut kiri atas */
+}
+
+
+.company-milestone h3{
+    font-weight: bold;
+    color: #0a5493;
+
+}
+.company-milestone{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.boxmile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    color: white;
+    background-image: url("../../assets/home/boxmile.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.amount{
+    font-size: 80px;
+}
+
+.amountyear{
+    font-size: 130px;
+}
+
+.year{
+    font-size: 60px;
+}
+
+.slideShow h3{
+    font-weight: bold;
+    color: #0a5493;
+
+}
+.slideShow{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.partner{
+    padding-top: 30px;
+    background-color: #e9e9e9;
+}
+
+.item-partner{
+    width: 120px;
+    border-radius: 50%;
+    height: 120px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.line{
+    width: 170px;
+    height: 2px;
+    background-color: #095591;
+}
+
+.partner h3{
+    font-size: 35px;
+    color: #095591;
+}
+
+.boxpartner{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    padding-top: 30px;
+}
+
+.swiper div{
+    background-color: grey;
+    height: 300px;
+}
+
+@media (max-width: 960px) {
+    .all-item-home{
+        margin-top: 50px;
+    }
+    
+.content-title-home p{
+    font-size: 20px;
+}
+
+
+}

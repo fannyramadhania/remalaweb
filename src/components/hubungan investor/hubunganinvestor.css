@@ -1,0 +1,14 @@
+.hi-content{
+    background-image: url("../../assets/home/companyy.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hi-content{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
