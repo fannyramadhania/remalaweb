@@ -71,7 +71,7 @@ const Home = () => {
 
                 <div className="content-home-products">
                     <h3>Temukan Konektivitas Untuk Kebutuhan Anda</h3>
-                    <p>Memberikan Solusi Kebutuhan Digital Anda</p>
+                    <p>Memberikan Solusi Kebutuhan Digital</p>
                     <div className="m-auto d-block">
                         <div className="d-flex justify-content-center">
                             <div className="tachyon col-5 d-flex align-items-center">
